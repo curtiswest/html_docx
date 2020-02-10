@@ -5,15 +5,15 @@ Returns corresponding objects to call for creating
 the different docx elements.
 """
 
-from mindboard.helpers.docx.html.tag_dispatchers.blockquote import BlockquoteDispatcher
-from mindboard.helpers.docx.html.tag_dispatchers.code import CodeDispatcher
-from mindboard.helpers.docx.html.tag_dispatchers.emphasis import EmphasisDispatcher
-from mindboard.helpers.docx.html.tag_dispatchers.heading import HeadingDispatcher
-from mindboard.helpers.docx.html.tag_dispatchers.linebreak import LineBreakDispatcher
-from mindboard.helpers.docx.html.tag_dispatchers.link import LinkDispatcher
-from mindboard.helpers.docx.html.tag_dispatchers.list_item import ListItemDispatcher
-from mindboard.helpers.docx.html.tag_dispatchers.paragraph import ParagraphDispatcher
-from mindboard.helpers.docx.html.tag_dispatchers.strong import StrongDispatcher
+from html_docx.html.tag_dispatchers.blockquote import BlockquoteDispatcher
+from html_docx.html.tag_dispatchers.code import CodeDispatcher
+from html_docx.html.tag_dispatchers.emphasis import EmphasisDispatcher
+from html_docx.html.tag_dispatchers.heading import HeadingDispatcher
+from html_docx.html.tag_dispatchers.linebreak import LineBreakDispatcher
+from html_docx.html.tag_dispatchers.link import LinkDispatcher
+from html_docx.html.tag_dispatchers.list_item import ListItemDispatcher
+from html_docx.html.tag_dispatchers.paragraph import ParagraphDispatcher
+from html_docx.html.tag_dispatchers.strong import StrongDispatcher
 
 
 def get_tag_dispatcher(html_tag):
