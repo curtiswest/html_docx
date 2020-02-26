@@ -1,4 +1,7 @@
 # encoding: utf-8
+
+#  Copyright (c) 2020 Curtis West <curtis@curtiswest.net>. All Rights Reserved
+
 from html_docx.html.tag_dispatchers import TagDispatcher
 
 
@@ -14,6 +17,7 @@ class CodeDispatcher(TagDispatcher):
     def append_tail(cls, element, container):
         return cls._append_code(element.tail, container)
 
+    # noinspection SpellCheckingInspection
     @classmethod
     def _append_code(cls, text, container):
         """
